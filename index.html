@@ -5,6 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to C.L.A.R.E.</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* Adding lines between cells */
+        td, th {
+            border: 1px solid #ddd; /* Light gray border */
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to C.L.A.R.E. (Computers in Liberal Arts Research Experience)!</h1>
@@ -12,9 +31,301 @@
 
     <section>
         <h2>About ComputerFarm</h2>
-        <p>Founded in 2023, ComputerFarm was established to meet the needs of student developers 
-          who were looking for simple, affordable cloud computing solutions. Our first product 
-          is an easy-to-use virtual Linux machine that can be spun up in just minutes.</p>
+        <p>Founded in 2023, ComputerFarm was established to meet the needs of student developers who were looking for simple, affordable cloud computing solutions. Our first product is an easy-to-use virtual Linux machine that can be spun up in just minutes.</p>
+    </section>
+
+    <section>
+        <h2>ComputerFarm Pricing Table</h2>
+        <p>Below is a comprehensive comparison table that outlines the cost per CPU and per GB of memory usage among various cloud providers and their respective plans. ComputerFarm stands out as the most economical option. It offers an affordable and dependable server access.</p>
+            <table>
+                <tr>
+                    <th>Provider</th>
+                    <th>Plan</th>
+                    <th>CPU</th>
+                    <th>RAM (GB)</th>
+                    <th>Price/Month ($)</th>
+                </tr>
+                <tr>
+                    <td>ComputerFarm</td>
+                    <td>512 MiB, 1 vCPU</td>
+                    <td>1</td>
+                    <td>0.512</td>
+                    <td>2.00</td>
+                </tr>
+                <tr>
+                    <td>ComputerFarm</td>
+                    <td>1 GiB, 1 vCPU</td>
+                    <td>1</td>
+                    <td>1.000</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>ComputerFarm</td>
+                    <td>2 GiB, 1 vCPU</td>
+                    <td>1</td>
+                    <td>2.000</td>
+                    <td>6.00</td>
+                </tr>
+                <tr>
+                    <td>ComputerFarm</td>
+                    <td>2 GiB, 2 vCPUs</td>
+                    <td>2</td>
+                    <td>2.000</td>
+                    <td>9.00</td>
+                </tr>
+                <tr>
+                    <td>ComputerFarm</td>
+                    <td>4 GiB, 2 vCPUs</td>
+                    <td>2</td>
+                    <td>4.000</td>
+                    <td>12.00</td>
+                </tr>
+                <tr>
+                    <td>ComputerFarm</td>
+                    <td>8 GiB, 4 vCPUs</td>
+                    <td>4</td>
+                    <td>8.000</td>
+                    <td>24.00</td>
+                </tr>
+                <tr>
+                    <td>ComputerFarm</td>
+                    <td>16 GiB, 8 vCPUs</td>
+                    <td>8</td>
+                    <td>16.000</td>
+                    <td>48.00</td>
+                </tr>
+            </table>
+    </section>
+
+    <section>
+        <h2>Cloud Provider Pricing Comparison</h2>
+        <p>
+            This table includes plans from CoCalc, DigitalOcean, AWS, Microsoft Azure, Google Compute Engine, and Oracle, with details on the number of CPUs, amount of RAM, and monthly cost. Keep in mind that the actual costs may vary based on additional features, usage patterns, and specific agreements with the providers.
+        </p>
+        <table>
+            <thead>
+            <tr>
+            <th>Provider</th>
+            <th>Plan</th>
+            <th>CPU</th>
+            <th>RAM (GB)</th>
+            <th>Price/Month ($)</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>CoCalc</td>
+            <td>Hobbyist</td>
+            <td>1</td>
+            <td>2.000</td>
+            <td>10.86</td>
+            </tr>
+            <tr>
+            <td>CoCalc</td>
+            <td>Academic Researcher Group</td>
+            <td>2</td>
+            <td>5.000</td>
+            <td>123.98</td>
+            </tr>
+            <tr>
+            <td>CoCalc</td>
+            <td>Business Working Group</td>
+            <td>1</td>
+            <td>4.000</td>
+            <td>104.16</td>
+            </tr>
+            <tr>
+            <td>DigitalOcean</td>
+            <td>512 MiB, 1 vCPU</td>
+            <td>1</td>
+            <td>0.512</td>
+            <td>4.00</td>
+            </tr>
+            <tr>
+            <td>DigitalOcean</td>
+            <td>1 GiB, 1 vCPU</td>
+            <td>1</td>
+            <td>1.000</td>
+            <td>6.00</td>
+            </tr>
+            <tr>
+            <td>DigitalOcean</td>
+            <td>2 GiB, 1 vCPU</td>
+            <td>1</td>
+            <td>2.000</td>
+            <td>12.00</td>
+            </tr>
+            <tr>
+            <td>DigitalOcean</td>
+            <td>2 GiB, 2 vCPUs</td>
+            <td>2</td>
+            <td>2.000</td>
+            <td>18.00</td>
+            </tr>
+            <tr>
+            <td>DigitalOcean</td>
+            <td>4 GiB, 2 vCPUs</td>
+            <td>2</td>
+            <td>4.000</td>
+            <td>24.00</td>
+            </tr>
+            <tr>
+            <td>DigitalOcean</td>
+            <td>8 GiB, 4 vCPUs</td>
+            <td>4</td>
+            <td>8.000</td>
+            <td>48.00</td>
+            </tr>
+            <tr>
+            <td>DigitalOcean</td>
+            <td>16 GiB, 8 vCPUs</td>
+            <td>8</td>
+            <td>16.000</td>
+            <td>96.00</td>
+            </tr>
+            <tr>
+            <td>AWS</td>
+            <td>t2.nano</td>
+            <td>1</td>
+            <td>0.500</td>
+            <td>4.18</td>
+            </tr>
+            <tr>
+            <td>AWS</td>
+            <td>t2.micro</td>
+            <td>1</td>
+            <td>1.000</td>
+            <td>8.35</td>
+            </tr>
+            <tr>
+            <td>AWS</td>
+            <td>t2.small</td>
+            <td>1</td>
+            <td>2.000</td>
+            <td>16.56</td>
+            </tr>
+            <tr>
+            <td>AWS</td>
+            <td>t2.medium</td>
+            <td>2</td>
+            <td>4.000</td>
+            <td>33.41</td>
+            </tr>
+            <tr>
+            <td>AWS</td>
+            <td>t2.large</td>
+            <td>2</td>
+            <td>8.000</td>
+            <td>66.82</td>
+            </tr>
+            <tr>
+            <td>AWS</td>
+            <td>t2.xlarge</td>
+            <td>4</td>
+            <td>16.000</td>
+            <td>133.63</td>
+            </tr>
+            <tr>
+            <td>AWS</td>
+            <td>t2.2xlarge</td>
+            <td>8</td>
+            <td>32.000</td>
+            <td>267.26</td>
+            </tr>
+            <tr>
+            <td>AWS</td>
+            <td>m7a.large</td>
+            <td>2</td>
+            <td>8.000</td>
+            <td>83.46</td>
+            </tr>
+            <tr>
+            <td>Microsoft Azure</td>
+            <td>A0</td>
+            <td>1</td>
+            <td>0.750</td>
+            <td>14.40</td>
+            </tr>
+            <tr>
+            <td>Microsoft Azure</td>
+            <td>A1</td>
+            <td>1</td>
+            <td>1.750</td>
+            <td>57.60</td>
+            </tr>
+            <tr>
+            <td>Microsoft Azure</td>
+            <td>A2</td>
+            <td>2</td>
+            <td>3.500</td>
+            <td>115.20</td>
+            </tr>
+            <tr>
+            <td>Microsoft Azure</td>
+            <td>A3</td>
+            <td>4</td>
+            <td>7.000</td>
+            <td>230.40</td>
+            </tr>
+            <tr>
+            <td>Microsoft Azure</td>
+            <td>A4</td>
+            <td>8</td>
+            <td>14.000</td>
+            <td>460.80</td>
+            </tr>
+            <tr>
+            <td>Microsoft Azure</td>
+            <td>A1v2</td>
+            <td>1</td>
+            <td>2.000</td>
+            <td>46.80</td>
+            </tr>
+            <tr>
+            <td>Microsoft Azure</td>
+            <td>A2v2</td>
+            <td>2</td>
+            <td>4.000</td>
+            <td>97.92</td>
+            </tr>
+            <tr>
+            <td>Microsoft Azure</td>
+            <td>A4v2</td>
+            <td>4</td>
+            <td>8.000</td>
+            <td>205.92</td>
+            </tr>
+            <tr>
+            <td>Google Compute Engine</td>
+            <td>c3-standard-4</td>
+            <td>4</td>
+            <td>16.000</td>
+            <td>149.83</td>
+            </tr>
+            <tr>
+            <td>Google Compute Engine</td>
+            <td>c3-standard-8</td>
+            <td>8</td>
+            <td>32.000</td>
+            <td>299.65</td>
+            </tr>
+            <tr>
+            <td>Oracle</td>
+            <td>AMD-based instances</td>
+            <td>1</td>
+            <td>1.000</td>
+            <td>21.60</td>
+            </tr>
+            <tr>
+            <td>Oracle</td>
+            <td>Ampere (Arm)-based instances</td>
+            <td>1</td>
+            <td>1.000</td>
+            <td>7.20</td>
+            </tr>
+            </tbody>
+            </table> 
+    
     </section>
 </body>
 </html>
